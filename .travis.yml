@@ -6,4 +6,4 @@ deploy:
  api-key: 
     secure: $api_key
  app: thawing-eyrie-73042
- script: mvn install -Dmaven.test.skip=true
+script: mvn install -Dmaven.test.skip=true
