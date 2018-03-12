@@ -1,6 +1,5 @@
 language: java
 deploy:
   provider: heroku
-  api_key:
-    secure: "36b00d7d-6f21-483f-92fe-0ddd2633c467"
   app: thawing-eyrie-73042
+script: mvn install -Dmaven.test.skip=true
